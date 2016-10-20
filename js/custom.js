@@ -86,7 +86,7 @@ Drop Down Menu Fade Effect
 /*==========================*/
 /* FullScreen Slider
 /*==========================*/
-
+/*
     jQuery(function (){
         jQuery('#fullscreen-slider').maximage({
             cycleOptions: {
@@ -135,7 +135,7 @@ Drop Down Menu Fade Effect
 
     });
 
-
+*/
 
 
 /*----------------------------------------------------*/
