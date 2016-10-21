@@ -131,10 +131,10 @@ input:focus, textarea:focus {
 /*-------------------------------------------------------*/
 
 .top-logo {
-    height: 140px;
+    height: 340px;
     margin: 0 auto;
     position: relative;
-    width: 140px;
+    width: 340px;
     z-index: 9999;
     outline: 0;
 
@@ -146,6 +146,29 @@ input:focus, textarea:focus {
 
 .top-logo a {
     outline: 0;
+}
+
+.header_down_link{
+  font-size: 80px;
+  border:6px solid white;
+  border-radius: 53px;
+  width: 106px;
+  height: 106px;
+  display: block;
+  position: relative;
+  margin: 30px auto;
+  text-decoration: none;
+  line-height:100px;
+}
+
+.header_down_link:hover{
+  text-decoration: none;
+  border:6px solid #2eaef0;
+  color:white;
+}
+
+.header_down_link:focus{
+  text-decoration: none;
 }
 
 .top-logo .scrollNormal {
@@ -437,14 +460,6 @@ ul.text-slide {
     font-style: italic;
     padding:10px 0 30px;
     letter-spacing:3px;
-}
-
-.slide-content p {
-    margin:10px 0;
-}
-
-.slide-content a {
-    margin:10px 0;
 }
 
 .align-center {
@@ -1068,6 +1083,10 @@ div.content-box.big div.content-box-info p {
    overflow: hidden;
 }
 
+.about-wrap h4{
+   font-size:1.8em;
+}
+
 .about-wrap h2{
    color:white;
 }
@@ -1077,9 +1096,12 @@ div.content-box.big div.content-box-info p {
 }
 
 .about-wrap ul{
-   list-style:none;
    color:white;
    font-size:1em;
+}
+
+.about-wrap ul li{
+   text-align: left;
 }
 
 .testimonial-wrap {
@@ -1096,7 +1118,9 @@ div.content-box.big div.content-box-info p {
 }
 
 .fun-wrap {
-    background: url('../img/plx3.jpg') 50% 0 no-repeat fixed;
+    background: url('../img/plx3.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     margin-bottom:100px;
 }
 
@@ -1777,9 +1801,10 @@ div.content-box.big div.content-box-info p {
 /* 19. Quote section
 /*-------------------------------------------------------*/
 
-.quote-wrap {
+.quote-wrap .container{
     text-align: center;
-    text-transform: uppercase;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .quote-wrap h2 {
