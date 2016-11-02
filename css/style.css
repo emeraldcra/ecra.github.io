@@ -920,6 +920,7 @@ div.content-box.big div.content-box-info p {
 .service-box {
     display: table;
     margin-bottom: 50px;
+    margin: 20px auto;
 }
 
 .service-icon, .service-box-content {
@@ -929,6 +930,7 @@ div.content-box.big div.content-box-info p {
 
 .service-icon {
     text-align: center;
+
 }
 
 .service-icon i {
@@ -939,7 +941,7 @@ div.content-box.big div.content-box-info p {
     width: 60px;
     border-radius: 50%;
     margin-right: 20px;
-
+    margin: auto;
     -webkit-transition: background .5s ease-in-out;
     -moz-transition: background .5s ease-in-out;
     -o-transition: background .5s ease-in-out;
@@ -1105,12 +1107,11 @@ div.content-box.big div.content-box-info p {
 }
 
 .testimonial-wrap {
-    background: url('../img/plx2.jpg') 50% 0 no-repeat fixed;
-
+    background: url('../img/slider/ecra_seattle_ferris.jpg') 50% 0 no-repeat fixed;
 }
 
 .quote-wrap {
-    background: url('../img/plx5.jpg') 50% 0 no-repeat fixed;
+    background: url('../img/slider/seattle_lakeunion_wide.jpg') 50% 0 no-repeat fixed;
 }
 
 .subscription-wrap {
@@ -1118,10 +1119,7 @@ div.content-box.big div.content-box-info p {
 }
 
 .fun-wrap {
-    background: url('../img/plx3.jpg');
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    margin-bottom:100px;
+    background: url('../img/slider/seattle_barge_docks.jpg')  50% 0 no-repeat fixed;
 }
 
 
@@ -2617,4 +2615,21 @@ ol.commentlist li:first-child {
     .posts-block {
         padding-right: 30px !important;
     }
+}
+
+
+.meet_the_members{
+  text-align:center;
+  display: block;
+  font-size:25px;
+  text-decoration:none;
+  padding: 20px 10px;
+  background: #50c878;
+  border-radius: 20px;
+  color:white;
+}
+
+.meet_the_members:hover,.meet_the_members:focus,.meet_the_members:active{
+  text-decoration:none;
+  color:white;
 }
