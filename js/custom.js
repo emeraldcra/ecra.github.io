@@ -497,7 +497,7 @@ jQuery(document).ready(function(){
             return pattern.test(emailAddress);
         };
 
-        if (isValidEmail(email) && (text.length > 100) && (name.length > 1)) {
+        if (isValidEmail(email) && (name.length > 1)) {
             $.ajax({
                 type: "POST",
                 url: "ajax/process.php",
