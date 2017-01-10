@@ -501,7 +501,7 @@ jQuery(document).ready(function(){
             $.ajax({
                 type: "POST",
                 url: "https://www.elformo.com/forms/47a52567-4cb1-4022-9b5f-0338d10bee26",
-                dataType: 'jsonp',
+                dataType: 'json',
                 data: dataString,
                 success: function () {
                     $('.success').fadeIn(1000).delay(3000).fadeOut(1000);
