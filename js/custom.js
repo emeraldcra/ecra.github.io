@@ -500,7 +500,7 @@ jQuery(document).ready(function(){
         if (isValidEmail(email) && (name.length > 1)) {
             $.ajax({
                 type: "POST",
-                url: "ajax/process.php",
+                url: "https://www.elformo.com/forms/47a52567-4cb1-4022-9b5f-0338d10bee26",
                 data: dataString,
                 success: function () {
                     $('.success').fadeIn(1000).delay(3000).fadeOut(1000);
