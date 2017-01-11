@@ -500,9 +500,13 @@ jQuery(document).ready(function(){
         if (isValidEmail(email) && (name.length > 1)) {
             $.ajax({
                 type: "POST",
-                url: "https://www.elformo.com/forms/47a52567-4cb1-4022-9b5f-0338d10bee26",
-                dataType: 'json',
+                url: 'https://api.formbucket.com/f/buk_2tCB3jAEHwRZG0t8eTBKCsjn',
                 data: dataString,
+                crossDomain: true,
+                headers : {
+                  'accept' : 'application/javascript',
+                  'content-type': 'application/json'
+                },
                 success: function () {
                     $('.success').fadeIn(1000).delay(3000).fadeOut(1000);
                     $('#contact')[0].reset();
