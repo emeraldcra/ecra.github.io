@@ -504,8 +504,7 @@ jQuery(document).ready(function(){
                 data: dataString,
                 crossDomain: true,
                 headers : {
-                  'accept' : 'application/javascript',
-                  'content-type': 'application/json'
+                  'accept' : 'application/javascript'
                 },
                 success: function () {
                     $('.success').fadeIn(1000).delay(3000).fadeOut(1000);
