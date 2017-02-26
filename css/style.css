@@ -1057,8 +1057,8 @@ div.content-box.big div.content-box-info p {
   margin: 0 0 0 -800px;
 }
 
-.texture-layer, .bg-overlay {
-    background: url(../img/texture_layer.png) repeat;
+/*.texture-layer, .bg-overlay {
+    background: url(../img/texture_layer.png) repeat;*/
 }
 
 .featuresss, .image-parallax  {
